@@ -11,9 +11,9 @@
 - IDE에서 Go Live
   - WEB_STUDY-study > html > index.html > Go Live
 
-1. 첫 번째
-2. 두 번째
-3. 세 번째
+1. 디스코드
+2. 수업-공유
+3. 수업 준비 (VS Code에서 live까지 다운 받아야 go live 실행 됨)
 
 [구글](https://www.google.com)
 
