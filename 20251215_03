@@ -37,3 +37,19 @@
     </form>
 </body>
 </html>
+
+#코드
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta anme="viewport" content="width=device-width, initial-scale=1.0"
+        <title>폼태그</title>
+    </head>
+    <body>
+        <form>
+            <input type="text" name="txt" required placeholder="글 작성해 주세요">
+            <button type="submit">제출</button>
+        </form>
+    </body>
+</html>
