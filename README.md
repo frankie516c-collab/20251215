@@ -33,7 +33,7 @@ notion보단 **github** 이용해서 메모 정리하기
   <body>
 	<h1>Web Document</h1>
     <ol>
-		<li><a href="study01">HTML 문서 소개</a></li> **a라는 태그 때문에 밑줄이 그어짐**
+		<li><a href="study01">HTML 문서 소개</a></li> **a라는 태그 때문에 밑줄이 그어짐(css로 수정 가능) 이동하는 애라는 설명이 더 정확할듯**
 		<li><a href="study02">태그 알아보기</a></li> **href는 이동 대상임 페이지가 될 수도 위치가 될 수도 있음**
 		<li><a href="study03">폼 알아보기</a></li> **이런 밑줄 쳐진 대상에는 페이지 하단에 주소가 뜸**
 		<li><a href="study04">iframe 알아보기</a></li> **java로 이동 시킬 경우에는 하단에 주소가 안 뜸**
@@ -129,18 +129,30 @@ web page에 **기본은 index**이고 생략이 가능함 (위치 정보 필수 
 
 
 
+		<li class="lil
+##study_02
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="../../images/logo.png"/>
+	<title>태그 알아보기</title>
+</head>
+<body>
+	<h1>태그 알아보기</h1>
+	<ul>
+		<li><a href="page1.html" target="_blank">a 태그</a></li>
+		<li><a href="page2.html" target="_blank">블록태그, 인라인태그</a></li>
+		<li><a href="page3.html" target="_blank">dfn, abbr, cite, small</a></li>
+		<li><a href="page4.html" target="_blank">글자 관련 태그</a></li>
+		<li><a href="page5.html" target="_blank">Heading</a></li>
+		<li><a href="page6.html" target="_blank">수평선</a></li>
+		<li><a href="page7.html" target="_blank">목록 태그</a></li>
+		<li><a href="page8.html" target="_blank">단락</a></li>
+		<li><a href="page9.html" target="_blank">pre 태그</a></li>
+	</ul>
+</body>
+</html>
 
