@@ -8,10 +8,8 @@
 *기울임*
 ~~취소선~~
 
-- 사과
-- 바나나
-  - 노란 바나나
-  - 초록 바나나
+- IDE에서 Go Live
+  - WEB_STUDY-study > html > index.html > Go Live
 
 1. 첫 번째
 2. 두 번째
