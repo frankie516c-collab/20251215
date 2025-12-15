@@ -10,3 +10,7 @@ web application server: 동적인 파일을 다룸. 요청이 오면 결과를 �
 docker hub 들어가서 nginx 다운 받은 뒤
 VS Code에서 프로그램 다운(다운 링크는 디스코드에 강사님이 올려주심)
 다운 확인법: docker images 입력 -> nginx:latest 뜨나 보기 -> 뜬다면 docker run -d -p 8080:80 nginx:latest -> docker의 container 들어가서 초록불 들어온 Port 누르기 -> nginx 입성!!
+
+왜 도커를 쓰느냐?
+굳이 개인노트북에 파이썬 안깔아도 돼서 좋음
+VS Code랑 연결되면 바로 개발할 수 있음
