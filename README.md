@@ -53,4 +53,94 @@ notion보단 **github** 이용해서 메모 정리하기
 </body>
 </html>
 
-###URL 복습
+###URL 복습 (모든 URL은 URI다)
+목적: 자원 위치+접근 방법 / 위치정보: 필수
+http(HyperText Transfer Protocol): W3 정보 공유 시스템 웹에서 정보를 주고 받을 수 있는 통신 프로토콜을 말합니다.
+host & domain: IP 주소를 대신하는 사람이 기억하기 쉬운 웹사이트 이름 입니다.
+port: 해당 domain에서 서비스 접속하는 TCP/UDP의 포트 입니다.
+contextPath: 웹 애플리케이션의 서버 상의 상대적인 경로를 말합니다.
+queryString: 특정 매개변수에 값을 할당하는 균일 자원 지시자의 일부 입니다.
+
+###URI 복습
+web page에 **기본은 index**이고 생략이 가능함 (위치 정보 필수 아님)
+이거 중요한 이유: 나중에 react를 배울 때 필요함
+페이지가 열리지 않는 이유와 연결됨
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>기본페이지</title>
+	<link rel="icon" href="../../images/logo.png"/>
+	<link rel="stylesheet" href="../../css/default.css"/>
+	<style>
+		h1, h2, h3, h4, h5, h6 { margin: 0; padding: 10px 0; font-weight: normal; }
+		.h1 { text-align: center !important; }
+		.h2 { text-align: start; padding: 0 30px; }
+		.h3 { text-align: end; padding: 0 30px; }
+		#ul { list-style-type: circle; }
+		.li { display: inline; padding: 5px; margin: 0 5px; border-radius: 5%; background-color: aquamarine;}
+		.li:hover { box-shadow: 2px 2px 2px 1px rgb(0 0 255 / 0.2); cursor: pointer; }
+		.li a { text-decoration: none; color: black; font-weight: bold; }
+	</style>
+</head>
+<body>
+	<h1 class="h1" style="text-align: end;">
+		HTML 문서 소개
+	</h1>
+	<h2 class="h2">
+		HTML이란 무엇인가?
+	</h2>
+	<p style="padding: 0 30px;">
+		HTML(하이퍼텍스트 마크업 언어)은 웹페이지의 구조를 만드는 데 사용되는 표준 마크업 언어입니다.
+		웹사이트의 텍스트, 이미지, 링크 등 콘텐츠의 기본 뼈대를 정의하며, 이 언어를 통해 웹 브라우저가 페이지의 콘텐츠를 표시하고, CSS를 사용해 스타일을 추가하며, 자바스크립트를 이용해 상호작용을 구현합니다. 
+	</p>
+	<h3 class="h3">
+		HTML의 주요 특징
+	</h3>
+	<ul id="ul">
+		<li>HTML은 요소(element)와 태그(tag)를 사용하여 콘텐츠를 구조화합니다.</li>
+		<li>HTML5는 최신 버전으로, 멀티미디어 지원과 향상된 시맨틱 요소를 포함합니다.</li>
+		<li>웹 개발의 기초로서, 모든 웹 페이지는 HTML로 작성됩니다.</li>
+	</ul>
+	<ol> **order**이라서 리스트의 가장 큰 개념
+		<li class="li"> **버튼**
+			<a href="page1.html">PAGE1</a> **버튼을 눌렀을 때 이동하는 위치를 설정한 것**
+		</li>
+		<li class="li">
+			<a href="page2.html">PAGE2</a>
+		</li>
+	</ol>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
